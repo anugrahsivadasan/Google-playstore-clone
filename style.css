@@ -1,0 +1,112 @@
+*{
+    margin: 2px;
+    padding: 2px;
+}
+.row{
+    position: fixed;
+    overflow-x: hidden;
+}
+.row {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.scroll-container {
+    display: ;
+    overflow-x:auto;
+    white-space: nowrap;
+}
+
+.scroll-container::-webkit-scrollbar {
+    display: none; /* Hide the scrollbar */
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    flex: none;
+    width: 360px;
+}
+
+.item img {
+    width: 70px; /* Adjust the width for icons */
+    height: 70px; /* Adjust the height for icons */
+}
+
+.name {
+    margin-left: 10px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.details {
+    text-align: left;
+}
+
+.muted-text {
+    color: #6c757d; /* Bootstrap's muted text color */
+    font-size: 0.9em;
+}
+
+.rating {
+    color: gold;
+    font-size: 1em;
+}
+.btn{
+    border-radius: 20px;
+}
+.item1 img {
+    width: 200px; /* Adjust the width for icons */
+    height: 200px; /* Adjust the height for icons */
+}
+.row-3{
+    background-color: #f1cb4b;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border-radius: 10px;
+}
+.hope{
+    padding: 100px;
+    margin-top: 30px;
+}
+.item1 img {
+    width: 200px; /* Adjust the width for icons */
+    height: 200px; /* Adjust the height for icons */
+    border-radius: 20px;
+}
+.navbar-brand img {
+    margin-right: 10px;
+  }
+  .nav-item {
+    margin-left: 10px;
+  }
+  .navbar{
+    margin-right: 900px;
+  }
+  .icon{
+    margin-left: 1100px;
+  }
+  .icon img{
+    border-radius: 50px;
+    margin-bottom: 25px;
+    
+  }
+  .icon i{
+    margin-bottom: 25px;
+  }
+  .cat button:hover{
+    background-color: green;
+  }
+  .item:hover{
+    background-color: #bcbec0;
+  }
+  .item1:hover{
+    background-color: #bcbec0;
+  }
+  .row-3:hover{
+    box-shadow: 0 4px 6px rgba(85, 77, 77, 0.1);
+  }
+  .item img{
+    border-radius:10px;
+  }
+  

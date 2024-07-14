@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+     <!-- <nav class="navbar navbar-expand navbar-light bg-light ">
+        <div class="container-fluid ps-5 pe-5">
+          <a class="navbar-brand text-muted" href="#">
+            <img src="https://static-00.iconduck.com/assets.00/google-play-icon-2048x2048-487quz63.png" alt="" width="50" height="44" class="d-inline-block  ">
+            Google play
+          </a>
+          <ul class="nav me-5 pe-5">
+            <li class="nav-item">
+              <a class="nav-link active text-muted" aria-current="page" href="#">Games</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-success border" href="#"><u class="mt-lg-3">Apps</u> </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-muted" href="#">Movies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-muted" href="#" tabindex="-1" aria-disabled="true">Children</a>
+            </li>
+          </ul>
+        </div>
+      </nav>  -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container-fluid ps-5 pe-5">
+          <a class="navbar-brand text-muted" href="#">
+            <img src="https://static-00.iconduck.com/assets.00/google-play-icon-2048x2048-487quz63.png" alt="" width="50" height="44" class="d-inline-block align-middle">
+            Google Play
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse bg-light" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active text-muted" aria-current="page" href="#">Games</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-success border" href="#"><u class="mt-lg-3">Apps</u></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-muted" href="#">Movies</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-muted" href="#" tabindex="-1" aria-disabled="true">Children</a>
+              </li>
+            </ul>
+            <div class="icon  text-muted d-flex align-items-center bg-light">
+              <i class="fa-solid fa-magnifying-glass bg-light"></i>
+              <i class="fa-regular fa-circle-question text-muted"></i>
+              <img src="https://lh3.googleusercontent.com/a/ACg8ocKU24_Gs5pmcUaEZBvTclbMe7gncAaeUY93Kh7rBkUP-5aS5wlc=s32-c-k-cc-mo" alt="" width="32" height="32">
+            </div>  
+          </div>
+        </div>
+      </nav>
+  <!-- category 
+    <div class="row me-5 pe-5 ms-5 ps-5">
+    <div class="col-2">
+        <button type="button" class="btn btn-primary">1</button>
+    </div>    
+    <div class="col-2">
+        <button type="button" class="btn btn-primary">1</button>
+    </div>    
+    <div class="col-2">
+        <button type="button" class="btn btn-primary">1</button>
+    </div>    
+    <div class="col-2">
+        <button type="button" class="btn btn-primary">1</button>
+    </div>    
+    <div class="col-2">
+        <button type="button" class="btn btn-primary">1</button>
+    </div>    
+       ms-5 ps-5 me-5 pe-5
+    </div> -->
+    <div class="container gx-3">
+    <div  class="category  d-flex  " >
+        <div class="cat p-1">
+        <button type="button " class="btn btn-outline-secondary d-flex bg-success"><i class="fa-solid fa-mobile-screen-button" style="color: #63E6BE;"></i> phone</button>
+    </div>
+        <div class="cat p-1">
+        <button type="button " class="btn btn-outline-secondary ps-3 d-flex"><i class="fa-solid fa-tablet" style="color: #63E6BE;"></i>tablet</button>
+    </div>
+        <div class="cat p-1">
+        <button type="button " class="btn btn-outline-secondary ps-3 d-flex"><i class="fa-solid fa-tv" style="color: #63E6BE;"></i>TV</button>
+    </div>
+        <div class="cat p-1">
+        <button type="button " class="btn btn-outline-secondary ps-3 d-flex"><i class="fa-solid fa-laptop" style="color: #63E6BE;"></i>ChromeBook</button>
+    </div>
+        <div class="cat p-1">
+        <button type="button " class="btn btn-outline-secondary ps-3 d-flex">phone</button>
+    </div>
+        
+
+
+    </div>
+
+
+<!-- top -->
+ <div class="container-1   ">
+    <h3 class="">Top charts</h3>
+    <div  class="category  d-flex " >
+        <div class="cat p-1">
+        <button type="button " class="btn btn-outline-secondary d-flex"> top free</button>
+    </div>
+        <div class="cat p-1">
+        <button type="button " class="btn btn-outline-secondary ps-3 d-flex">top grossing</button>
+    </div>
+        <div class="cat p-1">
+        <button type="button " class="btn btn-outline-secondary ps-3 d-flex">top paid</button>
+    </div>
+
+ </div>
+ 
+   
+        <!-- <div class="card mb-3 " style="max-width: 250px;">
+            <div class="row g-0 ">
+              <div class="col-md-4 d-">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSM_Bj8MJNJ0gnZ5DuevIkYfD9DqHBNCqb1w&s"  alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body ">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">sony LIV:sports&entmt</p>
+                  <p class="card-text"><small class="text-muted">Entertainment</small></p>
+                </div>
+              </div>
+            </div>
+          </div> -->
+          <!-- <div class="row">
+            <div class="col-1 d-flex">
+                <p11 class="card-text mt-3"><small class="text-muted">1</small></p11>
+
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSM_Bj8MJNJ0gnZ5DuevIkYfD9DqHBNCqb1w&s"   alt="...">
+
+            </div>
+            <div class="col-3">
+                <p11 class="card-text"> &nbsp;sony LIV:sports &  entmt</p11>
+                <p class="card-text "><small class="text-muted">Entertainment &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3.9<i class="fa-solid fa-star"></i>  </small></p>
+            </div>
+            <div class="col-1 d-flex">
+                <p11 class="card-text mt-3"><small class="text-muted">1</small></p11>
+
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSM_Bj8MJNJ0gnZ5DuevIkYfD9DqHBNCqb1w&s"  alt="...">
+
+            </div>
+            <div class="col-3">
+                <p11 class="card-text"> &nbsp;sony LIV:sports &  entmt</p11>
+                <p class="card-text "><small class="text-muted">Entertainment &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3.9<i class="fa-solid fa-star"></i>  </small></p>
+            </div>
+            
+          </div> -->
+          <div class="scroll-container">
+            <div class="scroll-row d-flex">
+                <div class="item">
+                    <div class="muted-text">1</div>
+
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSM_Bj8MJNJ0gnZ5DuevIkYfD9DqHBNCqb1w&s"   alt="...">
+                    <div class="details">
+                        <div class="name">sony LIV:sports &  entmt</div>
+                        <div class="muted-text">Entertainment</div>
+                        <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9734;</div> <!-- Rating symbol using stars -->
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="muted-text">4</div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA38HLYXwnysCfnv8wS3SpV9ztESyaxYlJiw&s" alt="Image 2">
+                    <div class="details">
+                        <div class="name">whatsapp messenger</div>
+                        <div class="muted-text">Communication</div>
+                        <div class="rating">&#9733;&#9733;&#9733;&#9734;&#9734;</div> <!-- Rating symbol using stars -->
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="muted-text">7</div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTapCDkdChYYvpHfT1e_hQwjvLdi20vMqy8_g&s" alt="Image 2">
+                    <div class="details">
+                        <div class="name">True caller</div>
+                        <div class="muted-text">communication</div>
+                        <div class="rating">&#9733;&#9733;&#9733;&#9734;&#9734;</div> <!-- Rating symbol using stars -->
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="muted-text">1</div>
+                    <img src="https://play-lh.googleusercontent.com/KQITtLZDXfJXZp-zfa23x1kSJLKI90KInjhsCAOL2gsXPKr22TiIKrK-psk2XYSQZw" alt="Image 2">
+                    <div class="details">
+                        <div class="name">Where is my train</div>
+                        <div class="muted-text">Travel</div>
+                        <div class="rating">&#9733;&#9733;&#9733;&#9734;&#9734;</div> <!-- Rating symbol using stars -->
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="muted-text">1</div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNlXdTjiB4tayBfYkTavLA_Xjkcj1ebjYG9g&s" alt="Image 2">
+                    <div class="details">
+                        <div class="name">Messenger</div>
+                        <div class="muted-text">social</div>
+                        <div class="rating">&#9733;&#9733;&#9733;&#9734;&#9734;</div> <!-- Rating symbol using stars -->
+                    </div>
+                </div>
+               
+                <!-- Add more items as needed -->
+            </div>
+            <div class="scroll-row d-flex">
+                <div class="item">
+                    <div class="muted-text">2</div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG0lr5_XyRROftWu-Fi0yIgZ09UF6eK3a9xw&s" alt="Image 2">
+                    <div class="details">
+                        <div class="name">Amazon</div>
+                        <div class="muted-text">purchase</div>
+                        <div class="rating">&#9733;&#9733;&#9733;&#9734;&#9734;</div> <!-- Rating symbol using stars -->
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="muted-text">5</div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrQA2hTaNKpgmjxrTb3krQksGhJXXbYFrYLA&s" alt="Image 2">
+                    <div class="details">
+                        <div class="name">Youtube</div>
+                        <div class="muted-text">social</div>
+                        <div class="rating">&#9733;&#9733;&#9733;&#9734;&#9734;</div> <!-- Rating symbol using stars -->
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="muted-text">8</div>
+                    <img src="https://cdn3.vectorstock.com/i/1000x1000/07/22/spotify-social-media-logo-abstract-symbol-design-vector-42870722.jpg" alt="Image 2">
+                    <div class="details">
+                        <div class="name">Spotify</div>
+                        <div class="muted-text">Music</div>
+                        <div class="rating">&#9733;&#9733;&#9733;&#9734;&#9734;</div> <!-- Rating symbol using stars -->
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="muted-text">1</div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiELq8P8P7MsHTfZzKJfnxnw3H-1rp-XnbTQ&s" alt="Image 2">
+                    <div class="details">
+                        <div class="name">Google Pay</div>
+                        <div class="muted-text">finance</div>
+                        <div class="rating">&#9733;&#9733;&#9733;&#9734;&#9734;</div> <!-- Rating symbol using stars -->
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="muted-text">1</div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvE6-6odTOoKvuJjhWykmi7kblH7Ix9tjwjA&s" alt="Image 2">
+                    <div class="details">
+                        <div class="name">Phonepay</div>
+                        <div class="muted-text">finance</div>
+                        <div class="rating">&#9733;&#9733;&#9733;&#9734;&#9734;</div> <!-- Rating symbol using stars -->
+                    </div>
+                </div>
+               
+                <!-- Add more items as needed -->
+            </div>
+            <div class="scroll-row d-flex">
+                
+                <div class="item">
+                    <div class="muted-text">3</div>
+                    <img src="https://www.vhv.rs/dpng/d/542-5424381_facebook-twitter-google-plus-linkedin-single-social-media.png" alt="Image 2">
+                    <div class="details">
+                        <div class="name">Linkedin</div>
+                        <div class="muted-text">social</div>
+                        <div class="rating">&#9733;&#9733;&#9733;&#9734;&#9734;</div> <!-- Rating symbol using stars -->
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="muted-text">6</div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyEM8IOEOZsUWAZXdv_-M0LQKRVC-E8Loisg&s" alt="Image 2">
+                    <div class="details">
+                        <div class="name">Snapchat</div>
+                        <div class="muted-text">communication</div>
+                        <div class="rating">&#9733;&#9733;&#9733;&#9734;&#9734;</div> <!-- Rating symbol using stars -->
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="muted-text">9</div>
+                    <img src="https://logos-world.net/wp-content/uploads/2020/11/Flipkart-Emblem.png" alt="Image 2">
+                    <div class="details">
+                        <div class="name">Flipkart</div>
+                        <div class="muted-text">shopping</div>
+                        <div class="rating">&#9733;&#9733;&#9733;&#9734;&#9734;</div> <!-- Rating symbol using stars -->
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="muted-text">1</div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7RDVIqArF3OLtzexoa-Ed-SLqu-TZpx5Uzg&s" alt="Image 2">
+                    <div class="details">
+                        <div class="name">Meesho</div>
+                        <div class="muted-text">shopping</div>
+                        <div class="rating">&#9733;&#9733;&#9733;&#9734;&#9734;</div> <!-- Rating symbol using stars -->
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="muted-text">1</div>
+                    <img src="https://logos-world.net/wp-content/uploads/2020/11/Jio-Emblem.png" alt="Image 2">
+                    <div class="details">
+                        <div class="name">MY jio</div>
+                        <div class="muted-text">Productivity</div>
+                        <div class="rating">&#9733;&#9733;&#9733;&#9734;&#9734;</div> <!-- Rating symbol using stars -->
+                    </div>
+                </div>
+                <!-- Add more items as needed -->
+            </div>
+        </div>
+
+        
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+ 
+</div>
+<div class="scroll-container">
+    <h3>Based on your resent activity</h3>
+    <div class="scroll-row d-flex">
+        <div class="item1">
+            <img src="https://play-lh.googleusercontent.com/tbTCHhShK62A6GTWMD8eU710ALwMyRksrf-b5-b9ITUyjoOht-HZu7Sgp-h3pf06VDuJ=s256-rw" alt="Image 2">
+            <div class="details">
+                <div class="name">Duolingo:language </div>
+                <div class="muted-text"></div>
+                <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9734;</div> <!-- Rating symbol using stars -->
+            </div>
+        </div>
+        <div class="item1">
+            <img src="https://play-lh.googleusercontent.com/FChZKPO457J28-5XfUXjVLWSjNDpOQ28FUPze-icpd0ylt3iraHKdP2125CrL2dnuQ=s256-rw" alt="...">
+            <div class="details">
+                <div class="name">Spotify lite</div>
+                <div class="muted-text"></div>
+                <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9734;</div> <!-- Rating symbol using stars -->
+            </div>
+        </div>
+        <div class="item1">
+            <img src="https://play-lh.googleusercontent.com/x9HL-yzNmqTQp6ENzRity_7AmBr9CsuhrmgAfeYt5VHb-834i1GsduPmi0-RCCFt0tI=s256-rw"   alt="...">
+            <div class="details">
+                <div class="name">Perfect piano</div>
+                <div class="muted-text"></div>
+                <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9734;</div> <!-- Rating symbol using stars -->
+            </div>
+        </div>
+        <div class="item1">
+            <img src="https://play-lh.googleusercontent.com/NIhaPLVMl69snWk7IOWADeBwU-8FG5VL1q41_fmd6TVa4FEIqXQw3Ar3BovrXvza2Q=s256-rw"   alt="...">
+            <div class="details">
+                <div class="name">Sketchbookoooooooo</div>
+                <div class="muted-text"></div>
+                <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9734;</div> <!-- Rating symbol using stars -->
+            </div>
+        </div>
+        <div class="item1">
+            <img src="https://play-lh.googleusercontent.com/9N31LXhskYkUEoFyEog8-SRs2MAmzcWKP0sMdSVDo-L7GszfBsp4o3u1Yvhor3xpPw=s256-rw"   alt="...">
+            <div class="details">
+                <div class="name">AI image generator</div>
+                <div class="muted-text"></div>
+                <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9734;</div> <!-- Rating symbol using stars -->
+            </div>
+        </div>
+        <div class="item1">
+            <img src="https://play-lh.googleusercontent.com/_lUNogA52mednIuRMsKN6KjOVW8XUM5RPh-Lzuzr0obffO-wXgDQhEPOu4lwWRa0Sg=s256-rw"   alt="...">
+            <div class="details">
+                <div class="name">Adobe Express</div>
+                <div class="muted-text"></div>
+                <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9734;</div> <!-- Rating symbol using stars -->
+            </div>
+        </div>
+        <div class="item1">
+            <img src="https://play-lh.googleusercontent.com/PCpXdqvUWfCW1mXhH1Y_98yBpgsWxuTSTofy3NGMo9yBTATDyzVkqU580bfSln50bFU=s256-rw"  alt="...">
+            <div class="details">
+                <div class="name">GitHub</div>
+                <div class="muted-text"></div>
+                <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9734;</div> <!-- Rating symbol using stars -->
+            </div>
+        </div>
+        <div class="item1">
+            <img src="https://play-lh.googleusercontent.com/TBRwjS_qfJCSj1m7zZB93FnpJM5fSpMA_wUlFDLxWAb45T9RmwBvQd5cWR5viJJOhkI=s256-rw"   alt="...">
+            <div class="details">
+                <div class="name">Netflix</div>
+                <div class="muted-text"></div>
+                <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9734;</div> <!-- Rating symbol using stars -->
+            </div>
+        </div>
+    </div>
+        <!-- recomented -->
+        
+        
+    </div>
+    <div class="scroll-container">
+        <h3>Recomented for you</h3>
+        <div class="scroll-row d-flex">
+            <div class="item1">
+                <img src="https://play-lh.googleusercontent.com/zajldFdRILyrbxdQfRX1vmGdgmK82XMxUU7KQOBYska8Dkt8Ptvm0pd9ugT4IvLVmXRY=s256-rw"   alt="...">
+                <div class="details">
+                    <div class="name">Learn python</div>
+                    <div class="muted-text"></div>
+                    <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9734;</div> <!-- Rating symbol using stars -->
+                </div>
+            </div>
+            <div class="item1">
+                <img src="https://play-lh.googleusercontent.com/38Th_nlPNH-TzZ4jBWGBWmnrpUonJxjpp32TD60m4mXqGdxb_qgfbbykovdts8VADao=s256-rw"   alt="...">
+                <div class="details">
+                    <div class="name">Coding c++</div>
+                    <div class="muted-text"></div>
+                    <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9734;</div> <!-- Rating symbol using stars -->
+                </div>
+            </div>
+            <div class="item1">
+                <img src="https://play-lh.googleusercontent.com/ZIrCcsga5EiJpCqQtOzuVFSHY4yOiESvZrLFy-gC0OGHZ9fKM018odPj2Q0TPmrOpRvD=s256-rw"   alt="...">
+                <div class="details">
+                    <div class="name">Instagram lite</div>
+                    <div class="muted-text"></div>
+                    <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9734;</div> <!-- Rating symbol using stars -->
+                </div>
+            </div>
+            <div class="item1">
+                <img src="https://play-lh.googleusercontent.com/oXw9k_qw7qvc047R7m1GzY1f2agS75ev7uH-0w2MgNSr4WZmPBmXO4Z9UIEeX2c9gBU=s256-rw"   alt="...">
+                <div class="details">
+                    <div class="name">Screen recorder</div>
+                    <div class="muted-text"></div>
+                    <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9734;</div> <!-- Rating symbol using stars -->
+                </div>
+            </div>
+            <div class="item1">
+                <img src="https://play-lh.googleusercontent.com/1V9wW2_rgDxBk9g2pFLGZY0XfPNnXuNMkFmvNGs2cCdj9hJGGi-NESqMVoB82Hu8XA=s256-rw"   alt="...">
+                <div class="details">
+                    <div class="name">Zee5 movies,series</div>
+                    <div class="muted-text"></div>
+                    <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9734;</div> <!-- Rating symbol using stars -->
+                </div>
+            </div>
+            <div class="item1">
+                <img src="https://play-lh.googleusercontent.com/3E-AjwKJC4YA0_bXkQSW2KzGQeIZWh-8qeaeJ5kYdvHA8rz29KJ1-rCD6QX3vYKAGKj0=s256-rw"   alt="...">
+                <div class="details">
+                    <div class="name">programming hub</div>
+                    <div class="muted-text"></div>
+                    <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9734;</div> <!-- Rating symbol using stars -->
+                </div>
+            </div>
+            <div class="item1">
+                <img src="https://play-lh.googleusercontent.com/ebs6ftYUkOKlDY0M174OpvargwbDyHUVAnO_G5aE0dL5GBQKCtfh3adN5H3ZMThXogDi=s256-rw"   alt="...">
+                <div class="details">
+                    <div class="name">Whatsapp buisiness</div>
+                    <div class="muted-text"></div>
+                    <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9734;</div> <!-- Rating symbol using stars -->
+                </div>
+            </div>
+            <div class="item1">
+                <img src="https://play-lh.googleusercontent.com/u4PW84G_8dSNVtBadRA3JsmBRxFjO6UNeHtdOnV1k6bFXl8qmbeXIXE2Je8on-D6Vg=s256-rw"   alt="...">
+                <div class="details">
+                    <div class="name">Uber driver</div>
+                    <div class="muted-text"></div>
+                    <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9734;</div> <!-- Rating symbol using stars -->
+                </div>
+            </div>
+     </div>
+    </div>
+    <!-- educational -->
+    <div class="scroll-container">
+        <h3>Educational</h3>
+        <div class="scroll-row d-flex">
+            <div class="item1">
+                <img src="https://play-lh.googleusercontent.com/J337b5sagJdKzww-sVF2gkw4TGswxd5LZMxDB1lcZaw-ZS0mR0R367AopngBd4Yvr1KB=s256-rw"   alt="...">
+                <div class="details">
+                    <div class="name">C compiler</div>
+                    <div class="muted-text"></div>
+                    <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9734;</div> <!-- Rating symbol using stars -->
+                </div>
+            </div>
+            <div class="item1">
+                <img src="https://play-lh.googleusercontent.com/WCwcq3DvY0pbaTqUfU1ToySB2s5mmqAUxcLcTN3Y2J5l-sDwS2L2z6_qmCYNX9wdXg=s256-rw"   alt="...">
+                <div class="details">
+                    <div class="name">Learn C programming</div>
+                    <div class="muted-text"></div>
+                    <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9734;</div> <!-- Rating symbol using stars -->
+                </div>
+            </div>
+            <div class="item1">
+                <img src="https://play-lh.googleusercontent.com/MT--F1Eu6eE6iwgylZLn8ZPvVLTLVoqCqlZadj4TiGORircf0h0L4HUAARXhsNL_pHg=s256-rw"   alt="...">
+                <div class="details">
+                    <div class="name">Solo learn AI</div>
+                    <div class="muted-text"></div>
+                    <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9734;</div> <!-- Rating symbol using stars -->
+                </div>
+            </div>
+            <div class="item1">
+                <img src="https://play-lh.googleusercontent.com/3E-AjwKJC4YA0_bXkQSW2KzGQeIZWh-8qeaeJ5kYdvHA8rz29KJ1-rCD6QX3vYKAGKj0=s256-rw"   alt="...">
+                <div class="details">
+                    <div class="name">Programming hub</div>
+                    <div class="muted-text"></div>
+                    <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9734;</div> <!-- Rating symbol using stars -->
+                </div>
+            </div>
+            <div class="item1">
+                <img src="https://play-lh.googleusercontent.com/qq5__wITsoCx2kUK8TqVW2-8UDRuxET9kCzPzAPHad8umXiHRF2N0tZKuLezd0tiBQg=s256-rw"   alt="...">
+                <div class="details">
+                    <div class="name">Coursera learn skills</div>
+                    <div class="muted-text"></div>
+                    <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9734;</div> <!-- Rating symbol using stars -->
+                </div>
+            </div>
+            <div class="item1">
+                <img src="https://play-lh.googleusercontent.com/dsCkmJE2Fa8IjyXERAcwc5YeQ8_NvbZ4_OI8LgqyjILpXUfS5YhEcnAMajKPrZI-og=s256-rw"   alt="...">
+                <div class="details">
+                    <div class="name">udemy-online courses</div>
+                    <div class="muted-text"></div>
+                    <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9734;</div> <!-- Rating symbol using stars -->
+                </div>
+            </div>
+            <div class="item1">
+                <img src="https://play-lh.googleusercontent.com/AyJnaQ0JfEu-F_4bop5hH4qpJwYJ1blePyer6VVUUm4Al80uWJBje4UZHirrf39wI7uI=s256-rw"   alt="...">
+                <div class="details">
+                    <div class="name">Kahoot! Play&Create</div>
+                    <div class="muted-text"></div>
+                    <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9734;</div> <!-- Rating symbol using stars -->
+                </div>
+            </div>
+            <div class="item1">
+                <img src="https://play-lh.googleusercontent.com/C9WJLKl9nLcrhV158Qd6-3fWauWUc7Cdr6E9CopKdjNaWpdERrdaIqjhNvOXr9InlyA=s256-rw"   alt="...">
+                <div class="details">
+                    <div class="name">Reservo-Translate and learn</div>
+                    <div class="muted-text"></div>
+                    <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9734;</div> <!-- Rating symbol using stars -->
+                </div>
+            </div>
+     </div>
+    </div>
+    <!-- Social networking -->
+    <div class="scroll-container">
+        <h3>Social networking</h3>
+        <div class="scroll-row d-flex">
+            <div class="item1">
+                <img src="https://play-lh.googleusercontent.com/AzUHe1S5W-Z-3FRpqCC2BIDGHnS05mpoaDx3KhEWXy40GlFcg25kpGwtxc3_WpbJkLj2=s256-rw"   alt="...">
+                <div class="details">
+                    <div class="name">realme community</div>
+                    <div class="muted-text"></div>
+                    <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9734;</div> <!-- Rating symbol using stars -->
+                </div>
+            </div>
+            <div class="item1">
+                <img src="https://play-lh.googleusercontent.com/ItxDn_WNq3QPvuXS1jaXwujqvRobrH-hpEqbDy1iCVx0b5Z5dv9ADyfd83Dn6cDsNbE=s256-rw"   alt="...">
+                <div class="details">
+                    <div class="name">Pi network</div>
+                    <div class="muted-text"></div>
+                    <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9734;</div> <!-- Rating symbol using stars -->
+                </div>
+            </div>
+            <div class="item1">
+                <img src="https://play-lh.googleusercontent.com/weE3NCQf48Jf_TRQX3q8ivLKGbjYKRSyF8-G4J089nG8TpHOWwQLCeai1dpjyVh_MQ=s256-rw"   alt="...">
+                <div class="details">
+                    <div class="name">Multiple Accounts:dual</div>
+                    <div class="muted-text"></div>
+                    <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9734;</div> <!-- Rating symbol using stars -->
+                </div>
+            </div>
+            <div class="item1">
+                <img src="https://play-lh.googleusercontent.com/NtJKWfKy2GcMGOueaV0MVIGZQrCb0fp_EznJgMN8Y1KtcQoW_-1-oOklTAb-JSRZZ4U=s256-rw"   alt="...">
+                <div class="details">
+                    <div class="name">Palphone</div>
+                    <div class="muted-text"></div>
+                    <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9734;</div> <!-- Rating symbol using stars -->
+                </div>
+            </div>
+            <div class="item1">
+                <img src="https://play-lh.googleusercontent.com/jCln_XT8Ruzp7loH1S6yM-ZzzpLP1kZ3CCdXVEo0tP2w5HNtWQds6lo6aLxLIjiW_X8=s256-rw"   alt="...">
+                <div class="details">
+                    <div class="name">Signal private messenger</div>
+                    <div class="muted-text"></div>
+                    <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9734;</div> <!-- Rating symbol using stars -->
+                </div>
+            </div>
+            <div class="item1">
+                <img src="https://play-lh.googleusercontent.com/GRwxunkdqIO3aXp165dh7G3XXLlFLV4FDq58dX_AJTUTQKM5vlyCTx92MnasyY_r0gKD=s256-rw"   alt="...">
+                <div class="details">
+                    <div class="name">Hipi indian short video</div>
+                    <div class="muted-text"></div>
+                    <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9734;</div> <!-- Rating symbol using stars -->
+                </div>
+            </div>
+            <div class="item1">
+                <img src="https://play-lh.googleusercontent.com/G6jK9S77RN0laf9_6nhDo3AVxbRP9SgMmt8ZmQjKQ2hibn9xhOY-W5YFn_7stJD1CA=s256-rw"   alt="...">
+                <div class="details">
+                    <div class="name">Threads,an instagram app</div>
+                    <div class="muted-text"></div>
+                    <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9734;</div> <!-- Rating symbol using stars -->
+                </div>
+            </div>
+            <div class="item1">
+                <img src="https://play-lh.googleusercontent.com/DDfeXsEfDPgnOdvwHT_zm4LEcXKUPpQyRkeZUl2APC9rJqX3efpgLDZDd6kQeo4c0ao=s256-rw"   alt="...">
+                <div class="details">
+                    <div class="name">Telegram X</div>
+                    <div class="muted-text"></div>
+                    <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9734;</div> <!-- Rating symbol using stars -->
+                </div>
+            </div>
+     </div>
+    
+</div>
+<!-- 000000000000 -->
+ <div class="row-3 d-flex ">
+    <div class="col-6 ">
+        <div class="hope">
+        <h3>Essential app for work ,<br> school and life</h3>
+        <p>Explore these digitals must-haves</p></div></div>
+    <div class="col-6">
+ <img src="https://play-lh.googleusercontent.com/suKL1Nu_zM0tvcmpoXlc8jdAOjiaP-2Ctfn5QymmMk7MB_IsjYnsq-47MMPKN--H-PLg-V30CfM=w1296-h2160-rw" width="100%" height="100%" alt="Image 2">
+
+</div>
+
+</div>
+<hr>
+<div class="row-6 d-flex">
+    <div class="col-2">
+        <p class="text-muted"><b> Google play</b></p>
+        <p class="text-muted">Play pass</p>
+        <p class="text-muted">Play points</p>
+        <p class="text-muted">Gift cards</p>
+        <p class="text-muted">redeem</p>
+        <p class="text-muted">Refund policy</p>
+    </div>
+    <div class="col-2">
+        <p class="text-muted"><b>  Kids & family</b></p>
+        <p class="text-muted">Parent guide</p>
+        <p class="text-muted">Family sharing</p>
+        <p class="text-muted">Gift cards</p>
+        <p class="text-muted">redeem</p>
+        <p class="text-muted">Refund policy</p>
+    </div>
+</div>
+<div class="row-8 d-flex">
+    <div class="col-2"><p class="text-muted">Terms of service</p></div>
+    <div class="col-1"><p class="text-muted">Privacy</p></div>
+    <div class="col-2"><p class="text-muted">About google play</p></div>
+    <div class="col-1"><p class="text-muted">Devolopers</p></div>
+    <div class="col-1"><p class="text-muted">Google store</p></div>
+    <div class="col-2"><p class="text-muted">All prices include gst</p></div>
+    <div class="col-3 ms-5 ps-5 "><p class="text-muted">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRORvNIAzHY8PbFdV6Q_VfCHUMHang4h6xspw&s" width="40px" height="25x" alt="">India(English)
+    </p></div>
+   
+</div>
+</body>
+</html>
+<!--  -->
